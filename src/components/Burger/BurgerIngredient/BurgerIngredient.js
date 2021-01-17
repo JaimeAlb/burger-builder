@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'
-import classes from './BurgerIngredient.css';
+import PropTypes from 'prop-types';
+import classes from './BurgerIngredient.css';   
+
 // Stateless component
 class BurgerIngredient extends Component {
     render() {
@@ -37,7 +38,7 @@ class BurgerIngredient extends Component {
     }
 }
 
-BurgerIngredient.protoTypes = {
+BurgerIngredient.propTypes = {
     type: PropTypes.string.isRequired
 };
 
