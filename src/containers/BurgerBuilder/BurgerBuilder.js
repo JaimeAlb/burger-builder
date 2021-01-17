@@ -10,10 +10,10 @@ class BurgerBuilder extends Component {
     // }
     state = {               //modern fashion
         ingredients: { //the goal is to pass this object to the burger. We can't use map on it, it's not an array
-            salad: 1,
-            bacon: 1,
-            cheese: 2,
-            meat: 2
+            salad: 0,
+            bacon: 0,
+            cheese: 0,
+            meat: 0
         }
     }
     render() {
